@@ -70,6 +70,7 @@ int&& xr = x; // compiler error -- `x` is an lvalue
 int&& xr2 = 0; // `xr2` is an lvalue of type `int&&` -- binds to the rvalue temporary, `0`
 ```
 
+
 See also: [`std::move`](#stdmove), [`std::forward`](#stdforward), [`forwarding references`](#forwarding-references).
 
 ### Forwarding references
